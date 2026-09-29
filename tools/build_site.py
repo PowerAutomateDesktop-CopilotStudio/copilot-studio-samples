@@ -20,8 +20,8 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "site_src"
-REPO_BLOB = "https://github.com/PowerAutomateDesktop-CopilotStudio/copilot-studio-samples/blob/main"
-REPO_TREE = "https://github.com/PowerAutomateDesktop-CopilotStudio/copilot-studio-samples/tree/main"
+REPO_BLOB = "https://github.com/anne-automates/copilot-studio-samples/blob/main"
+REPO_TREE = "https://github.com/anne-automates/copilot-studio-samples/tree/main"
 LINK = re.compile(r"(\]\()([^)\s]+)(\))|(\b(?:src|href)=\")([^\"]+)(\")")
 
 SITE_CSS = """/* copilot-studio-samples site: small touches on top of Material */
@@ -104,7 +104,7 @@ def write_config(cards):
         {"Techniques": "TECHNIQUES.md"},
         {"How it is organised": "START-HERE.md"},
         {"Copilot Studio basics": [{"The pac CLI": "docs/pac-cli.md"}]},
-        {"PAD samples": "https://powerautomatedesktop-copilotstudio.github.io/pad-samples/"},
+        {"PAD samples": "https://anne-automates.github.io/pad-samples/"},
         {"Contribute": "CONTRIBUTING.md"},
     ]
     config = ROOT / ".site.yml"

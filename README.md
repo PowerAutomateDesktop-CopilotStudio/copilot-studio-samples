@@ -6,16 +6,16 @@
 
 Every sample starts with the quickest way to see it work, then states the problem, the design, what each part does, its limits and when it was tested.
 
-**0 samples** · 0 techniques · [Samples by technique](TECHNIQUES.md) · [How the samples are organised](START-HERE.md) · [Contribute](CONTRIBUTING.md) · [Submit a challenge](https://github.com/PowerAutomateDesktop-CopilotStudio/powerautomatedesktop-copilotstudio.github.io/issues/new?template=submit-a-challenge.yml) · [Power Automate Desktop samples](https://powerautomatedesktop-copilotstudio.github.io/pad-samples/)
+**0 samples** · 0 techniques · [Samples by technique](TECHNIQUES.md) · [How the samples are organised](START-HERE.md) · [Contribute](CONTRIBUTING.md) · [Submit a challenge](https://github.com/anne-automates/anne-automates.github.io/issues/new?template=submit-a-challenge.yml) · [Power Automate Desktop samples](https://anne-automates.github.io/pad-samples/)
 
 > [!IMPORTANT]
 > **For e-learning purposes.** The samples teach; they are not production-ready. Read the [disclaimer](START-HERE.md#disclaimer).
 
 > [!TIP]
-> **Have an automation challenge?** [Submit it to Anne](https://github.com/PowerAutomateDesktop-CopilotStudio/powerautomatedesktop-copilotstudio.github.io/issues/new?template=submit-a-challenge.yml): the next samples come from your challenges. Private request: [LinkedIn](https://www.linkedin.com/in/franckmongo/).
+> **Have an automation challenge?** [Submit it to Anne](https://github.com/anne-automates/anne-automates.github.io/issues/new?template=submit-a-challenge.yml): the next samples come from your challenges. Private request: [LinkedIn](https://www.linkedin.com/in/franckmongo/).
 
 > [!NOTE]
-> The first samples are being prepared. [Watch the repository](https://github.com/PowerAutomateDesktop-CopilotStudio/copilot-studio-samples) to know when they arrive.
+> The first samples are being prepared. [Watch the repository](https://github.com/anne-automates/copilot-studio-samples) to know when they arrive.
 
 ## What every sample gives you
 
