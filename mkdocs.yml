@@ -1,0 +1,58 @@
+# The GitHub Pages site. Its pages are the pages of the repository: tools/build_site.py copies them into site_src/,
+# adds the front matter read from each sample.yml (description) and the navigation, then runs MkDocs.
+# Do not edit site_src/ or site/: they are rebuilt on every run.
+site_name: Copilot Studio samples
+site_description: Tested, documented Copilot Studio agents. A quick try first, then the design, the skills, the limits and a step-by-step setup.
+site_url: https://powerautomatedesktop-copilotstudio.github.io/copilot-studio-samples/
+repo_url: https://github.com/PowerAutomateDesktop-CopilotStudio/copilot-studio-samples
+repo_name: copilot-studio-samples
+edit_uri: ""
+copyright: "MIT license · HyperAutomatisation and the contributors of copilot-studio-samples"
+docs_dir: site_src
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle: {icon: material/weather-night, name: Dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle: {icon: material/weather-sunny, name: Light mode}
+
+plugins:
+  - search
+
+extra_css:
+  - assets/site.css
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - admonition
+  - github-callouts
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: true

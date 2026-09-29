@@ -1,0 +1,8 @@
+_preview/
+__pycache__/
+dist/
+.pad/
+*.tmp
+site/
+site_src/
+.site.yml

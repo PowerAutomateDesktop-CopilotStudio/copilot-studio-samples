@@ -1,0 +1,34 @@
+# The card of an agent sample. tools/build_docs.py writes README.md and SETUP.md from it and from agent/<Agent name>/.
+# Quote any text that holds a comma inside { }.
+id: what-it-does-in-kebab-case         # = the folder name
+version: 1.0.0
+title: What the agent does, in a few words
+summary: One sentence that says who talks to it, about what, and what it never does.
+category: Finance                      # one of categories.yml
+kind: agent
+level: beginner                        # beginner | intermediate | advanced
+minutes: 20                            # full setup, from zero to the first good answer
+requires: [Copilot Studio]
+techniques: []                         # ids from techniques.yml
+authors: [Your name]
+
+problem: |
+  Two or three lines: the business need, who asks what today.
+
+solution: |
+  Two or three lines: the skills, the knowledge, the tools, and what stays with a person.
+
+quick_try:                             # the instructions alone, pasted into a new agent
+  minutes: 5
+  says: The instructions alone, pasted into a new agent.
+  try:
+    - {message: "A message to send", expect: "What the agent should do"}
+  # note: "What comes only with the full agent."
+
+# knowledge:                           # fictitious files to add as knowledge (full agent)
+#   - {file: knowledge/policy.docx, what: "The policy the agent quotes"}
+
+limits:
+  - What it does not do, what it needs, what was not tested.
+
+tested: []                             # - {date: 2026-01-31, path: Full agent, result: pass, note: "12 of 12 cases"}

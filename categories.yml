@@ -1,0 +1,13 @@
+# The categories of the gallery. A sample names one of them (category: in sample.yml); tools/build_docs.py refuses any other.
+# One category = one family of work an agent or a workflow takes over. Add one only when a sample needs it.
+
+Finance:
+  summary: Expenses, invoices, payments and the checks around them.
+Employees:
+  summary: Assistants that answer employees and guide them through a company process.
+Customers:
+  summary: Customer emails, requests and follow-ups.
+Operations:
+  summary: Recurring checks, batches and reports that run on their own.
+Automation design:
+  summary: Agents and workflows that help design or run other automations.

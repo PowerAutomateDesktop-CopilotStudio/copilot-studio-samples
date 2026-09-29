@@ -1,0 +1,32 @@
+# The card of a workflow sample. tools/build_docs.py writes README.md and SETUP.md from it and from workflows/.
+# Quote any text that holds a comma inside { }.
+id: what-it-does-in-kebab-case         # = the folder name
+version: 1.0.0
+title: What the workflow does, in a few words
+summary: One sentence that says what goes in and what comes out.
+category: Operations                   # one of categories.yml
+kind: workflow
+level: intermediate
+minutes: 15
+requires: [Copilot Studio]
+techniques: []                         # ids from techniques.yml
+authors: [Your name]
+
+problem: |
+  Two or three lines: the repetitive work it takes over.
+
+solution: |
+  Two or three lines: the trigger, the main steps, the result.
+
+quick_try:                             # the first run: inputs and what it returns
+  minutes: 10
+  inputs:
+    an_input: a value
+  # message: "What to ask the agent, for a workflow called by an agent"
+  expect:
+    - What the run returns.
+
+limits:
+  - What it does not do, what it needs, what was not tested.
+
+tested: []                             # - {date: 2026-01-31, path: Run it, result: pass, note: "2 runs"}

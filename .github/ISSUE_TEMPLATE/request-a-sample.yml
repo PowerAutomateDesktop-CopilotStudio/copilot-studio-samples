@@ -1,0 +1,11 @@
+name: Request a sample
+description: An agent you would like to see as a documented sample.
+labels: [sample request]
+body:
+  - type: textarea
+    id: job
+    attributes: {label: The job, description: "Who would talk to the agent, about what, and what it should never do."}
+    validations: {required: true}
+  - type: input
+    id: sources
+    attributes: {label: Knowledge, tools and systems, description: "e.g. a policy document, SharePoint, Dataverse, an API, a desktop flow"}

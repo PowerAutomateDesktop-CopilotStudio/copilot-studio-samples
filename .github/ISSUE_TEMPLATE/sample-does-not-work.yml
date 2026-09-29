@@ -1,0 +1,21 @@
+name: This sample does not work
+description: The setup or the answers of a sample agent differ from what its pages say.
+labels: [help]
+body:
+  - type: input
+    id: sample
+    attributes: {label: Sample, description: "The folder name, e.g. travel-expense-checker"}
+    validations: {required: true}
+  - type: dropdown
+    id: path
+    attributes:
+      label: Which path?
+      options: [Quick try (instructions pasted), Full agent (pac CLI), In my own agent]
+    validations: {required: true}
+  - type: input
+    id: pac
+    attributes: {label: pac CLI version, description: "The first lines of 'pac help', e.g. 2.11.2 (full agent only)"}
+  - type: textarea
+    id: what
+    attributes: {label: What happened, description: "The command and its output, or the message you sent and the answer you got. Remove any personal or company data."}
+    validations: {required: true}

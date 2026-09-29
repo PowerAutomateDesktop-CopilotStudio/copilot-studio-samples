@@ -1,0 +1,53 @@
+# The techniques the samples show. A sample lists its techniques by id (techniques: in sample.yml);
+# tools/build_docs.py refuses an id that is not here and writes TECHNIQUES.md, the index by technique.
+# label: 1 to 3 words for the gallery ; title: the heading in TECHNIQUES.md ; summary: one or two sentences.
+
+skills-routing:
+  label: Skills routing
+  title: Skills chosen by their description
+  summary: Each skill says when to use it and when not to; the agent picks the right one without topics or triggers.
+
+grounded-answers:
+  label: Grounded answers
+  title: Answers from knowledge, never invented
+  summary: The agent searches its knowledge first, cites it, and says so when the source is missing instead of guessing a figure.
+
+scope-and-refusal:
+  label: Scope and refusal
+  title: A clear scope, a one-sentence refusal
+  summary: The instructions list what the agent handles and what it declines, with where to go instead.
+
+human-decides:
+  label: Human decides
+  title: The agent prepares, a person decides
+  summary: The agent checks and explains, but never approves, sends or commits on behalf of a person.
+
+workflow-as-tool:
+  label: Workflow as a tool
+  title: The agent decides, the workflow executes
+  summary: A deterministic workflow, called by the agent with typed inputs, returns typed outputs the agent reads.
+
+typed-contract:
+  label: Typed contract
+  title: Typed inputs and outputs
+  summary: The trigger declares each input with its type and description; the response declares each output.
+
+json-loop:
+  label: JSON loop
+  title: Parse a JSON array, loop, aggregate
+  summary: Parse JSON, a loop with conditions, variables that count and sum, a joined text as the result.
+
+human-review:
+  label: Human review
+  title: A human review step in a workflow
+  summary: The workflow waits for a person's answer before it goes on.
+
+scheduled-run:
+  label: Schedule
+  title: A workflow on a schedule
+  summary: A recurrence trigger runs the workflow without a user or an agent.
+
+test-set:
+  label: Test set
+  title: A test set that states the expected behaviour
+  summary: Each test message names the skill that should answer and the words that must, or must not, appear.
