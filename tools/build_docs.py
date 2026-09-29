@@ -261,7 +261,7 @@ class Sample:
     def overview(self):
         c = self.card
         md = [GENERATED, "", f"[All samples](../../README.md) › {KIND[c['kind']]}s › {c['category']}", "", f"# {c['title']}", "",
-              c["summary"], "", self.meta(), "",
+              c["summary"], "", self.meta(), "", '*For e-learning purposes only: try it in a test environment with the sample data, and review it before any real use. [Disclaimer](../../START-HERE.md#disclaimer)*', "",
               f"[**Step-by-step setup**](SETUP.md) · [Download the sample (zip)]({REPO_URL}/releases/download/{self.zip}/{self.zip}.zip) · [Changelog](CHANGELOG.md)", ""]
         if "result" in self.pics:
             md += [fig(self.pics["result"], 720), ""]
@@ -331,7 +331,7 @@ class Sample:
     def setup(self):
         c, q = self.card, self.card["quick_try"]
         md = [GENERATED, "", f"[All samples](../../README.md) › [{c['title']}](README.md) › Setup", "", f"# Set up: {c['title']}", "",
-              f"{self.tested_line()} · v{self.version}", "",
+              f"{self.tested_line()} · v{self.version}", "", '*For e-learning purposes only: try it in a test environment with the sample data, and review it before any real use. [Disclaimer](../../START-HERE.md#disclaimer)*', "",
               "From the path that asks the least to the one that asks the most. Stop at the one you need.", ""]
         md += self.ladder_table("")
         for p in self.ladder():
@@ -414,7 +414,8 @@ def gallery(samples, techniques, categories):
           f"**{n} sample{'s' if n != 1 else ''}** · {len(used)} techniques · [Samples by technique](TECHNIQUES.md) · "
           f"[How the samples are organised](START-HERE.md) · [Contribute](CONTRIBUTING.md) · "
           f"[Request a sample]({REPO_URL}/issues/new?template=request-a-sample.yml) · "
-          "[Power Automate Desktop samples](https://powerautomatedesktop-copilotstudio.github.io/pad-samples/)", ""]
+          "[Power Automate Desktop samples](https://powerautomatedesktop-copilotstudio.github.io/pad-samples/)", "",
+          "> [!IMPORTANT]", "> **For e-learning purposes.** The samples teach; they are not production-ready. Read the [disclaimer](START-HERE.md#disclaimer).", "",]
     if not samples:
         md += ["> [!NOTE]", "> The first samples are being prepared. [Watch the repository](" + REPO_URL + ") to know when they arrive.", ""]
     if n > 3:

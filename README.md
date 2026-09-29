@@ -6,6 +6,9 @@
 
 **0 samples** · 0 techniques · [Samples by technique](TECHNIQUES.md) · [How the samples are organised](START-HERE.md) · [Contribute](CONTRIBUTING.md) · [Request a sample](https://github.com/PowerAutomateDesktop-CopilotStudio/copilot-studio-samples/issues/new?template=request-a-sample.yml) · [Power Automate Desktop samples](https://powerautomatedesktop-copilotstudio.github.io/pad-samples/)
 
+> [!IMPORTANT]
+> **For e-learning purposes.** The samples teach; they are not production-ready. Read the [disclaimer](START-HERE.md#disclaimer).
+
 > [!NOTE]
 > The first samples are being prepared. [Watch the repository](https://github.com/PowerAutomateDesktop-CopilotStudio/copilot-studio-samples) to know when they arrive.
 
