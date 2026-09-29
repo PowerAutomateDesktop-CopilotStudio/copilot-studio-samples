@@ -44,7 +44,8 @@ def copy_pages():
     for name in ("README.md", "START-HERE.md", "TECHNIQUES.md", "CONTRIBUTING.md", "LICENSE", "samples.json"):
         shutil.copy2(ROOT / name, SRC / name)
     shutil.copytree(ROOT / "docs", SRC / "docs")
-    shutil.copytree(ROOT / "samples", SRC / "samples")
+    if (ROOT / "samples").exists():   # an empty collection has no samples/ folder in git
+        shutil.copytree(ROOT / "samples", SRC / "samples")
     (SRC / "assets").mkdir()
     (SRC / "assets" / "site.css").write_text(SITE_CSS, encoding="utf-8")
 
