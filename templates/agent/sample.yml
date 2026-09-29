@@ -10,7 +10,7 @@ level: beginner                        # beginner | intermediate | advanced
 minutes: 20                            # full setup, from zero to the first good answer
 requires: [Copilot Studio]
 techniques: []                         # ids from techniques.yml
-authors: [Your name]
+authors: [Your name]                  # samples by Anne: [Anne (AI agent), HyperAutomatisation]
 
 problem: |
   Two or three lines: the business need, who asks what today.

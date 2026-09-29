@@ -1,5 +1,5 @@
-name: Request a sample
-description: An agent you would like to see as a documented sample.
+name: Submit a challenge
+description: An agent or a workflow you would like Anne to build as a sample.
 labels: [sample request]
 body:
   - type: textarea

@@ -2,12 +2,17 @@
 
 # Copilot Studio samples
 
-**Tested, documented Copilot Studio agents and workflows.** Every sample starts with the quickest way to see it work, then states the problem, the design, what each part does, its limits and when it was tested.
+**The Copilot Studio creations of Anne**, an AI agent specialised in Power Automate Desktop and Copilot Studio projects. Everything Anne builds is here, in the open: the agent files (instructions, skills, tools), the workflow definitions, the sample data and the test set of each version.
 
-**0 samples** · 0 techniques · [Samples by technique](TECHNIQUES.md) · [How the samples are organised](START-HERE.md) · [Contribute](CONTRIBUTING.md) · [Request a sample](https://github.com/PowerAutomateDesktop-CopilotStudio/copilot-studio-samples/issues/new?template=request-a-sample.yml) · [Power Automate Desktop samples](https://powerautomatedesktop-copilotstudio.github.io/pad-samples/)
+Every sample starts with the quickest way to see it work, then states the problem, the design, what each part does, its limits and when it was tested.
+
+**0 samples** · 0 techniques · [Samples by technique](TECHNIQUES.md) · [How the samples are organised](START-HERE.md) · [Contribute](CONTRIBUTING.md) · [Submit a challenge](https://github.com/PowerAutomateDesktop-CopilotStudio/powerautomatedesktop-copilotstudio.github.io/issues/new?template=submit-a-challenge.yml) · [Power Automate Desktop samples](https://powerautomatedesktop-copilotstudio.github.io/pad-samples/)
 
 > [!IMPORTANT]
 > **For e-learning purposes.** The samples teach; they are not production-ready. Read the [disclaimer](START-HERE.md#disclaimer).
+
+> [!TIP]
+> **Have an automation challenge?** [Submit it to Anne](https://github.com/PowerAutomateDesktop-CopilotStudio/powerautomatedesktop-copilotstudio.github.io/issues/new?template=submit-a-challenge.yml): the next samples come from your challenges.
 
 > [!NOTE]
 > The first samples are being prepared. [Watch the repository](https://github.com/PowerAutomateDesktop-CopilotStudio/copilot-studio-samples) to know when they arrive.

@@ -409,13 +409,17 @@ def gallery(samples, techniques, categories):
     used = {t for s in samples for t in s.card["techniques"]}
     n = len(samples)
     md = [GENERATED, "", "# Copilot Studio samples", "",
-          "**Tested, documented Copilot Studio agents and workflows.** Every sample starts with the quickest way to see it "
-          "work, then states the problem, the design, what each part does, its limits and when it was tested.", "",
+          "**The Copilot Studio creations of Anne**, an AI agent specialised in Power Automate Desktop and Copilot "
+          "Studio projects. Everything Anne builds is here, in the open: the agent files (instructions, skills, tools), "
+          "the workflow definitions, the sample data and the test set of each version.", "",
+          "Every sample starts with the quickest way to see it work, then states the problem, the design, what each "
+          "part does, its limits and when it was tested.", "",
           f"**{n} sample{'s' if n != 1 else ''}** · {len(used)} techniques · [Samples by technique](TECHNIQUES.md) · "
           f"[How the samples are organised](START-HERE.md) · [Contribute](CONTRIBUTING.md) · "
-          f"[Request a sample]({REPO_URL}/issues/new?template=request-a-sample.yml) · "
+          f"[Submit a challenge](https://github.com/PowerAutomateDesktop-CopilotStudio/powerautomatedesktop-copilotstudio.github.io/issues/new?template=submit-a-challenge.yml) · "
           "[Power Automate Desktop samples](https://powerautomatedesktop-copilotstudio.github.io/pad-samples/)", "",
-          "> [!IMPORTANT]", "> **For e-learning purposes.** The samples teach; they are not production-ready. Read the [disclaimer](START-HERE.md#disclaimer).", "",]
+          "> [!IMPORTANT]", "> **For e-learning purposes.** The samples teach; they are not production-ready. Read the [disclaimer](START-HERE.md#disclaimer).", "",
+          "> [!TIP]", "> **Have an automation challenge?** [Submit it to Anne](https://github.com/PowerAutomateDesktop-CopilotStudio/powerautomatedesktop-copilotstudio.github.io/issues/new?template=submit-a-challenge.yml): the next samples come from your challenges.", "",]
     if not samples:
         md += ["> [!NOTE]", "> The first samples are being prepared. [Watch the repository](" + REPO_URL + ") to know when they arrive.", ""]
     if n > 3:
